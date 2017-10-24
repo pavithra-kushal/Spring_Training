@@ -22,10 +22,10 @@ public class Person {
     public String name;
 
     @Autowired
-    private Car car = new Car("Santro");
+    private Car car;
 
 
-    @Resource(name = "stockList")
+   // @Resource(name = "stockList")
     private List<String> stock;
 
     public List<String> getStock() {
